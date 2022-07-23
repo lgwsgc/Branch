@@ -1,0 +1,15 @@
+1、本地没有仓库，首先初始化仓库
+	git  init
+	git  status
+2、将项目中的文件都添加到仓库
+	git  add .
+3、将添加的项目都提交
+	git  commit -m  ‘提示信息’
+4、查看分支
+	git branch 
+5、尝试连接远端
+	git remote
+6、连接远端
+	git remote add origin url（远端仓库地址）
+7、推送本地内容到远端
+	git push -u origin master（分支）
